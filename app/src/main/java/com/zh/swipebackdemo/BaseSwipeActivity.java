@@ -1,10 +1,10 @@
-package com.zh.swipebackdemo;
+﻿package com.zh.swipebackdemo;
 
 import android.os.Bundle;
-import android.support.annotation.ColorInt;
+import androidx.annotation.ColorInt;
 import android.support.annotation.IntRange;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.Toolbar;
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import android.widget.CompoundButton;
 import android.widget.RadioButton;
 
@@ -75,7 +75,7 @@ public abstract class BaseSwipeActivity extends BaseSwipeBackActivity implements
     }
 
     /**
-     * 设置状态栏颜色
+     * 璁剧疆鐘舵€佹爮棰滆壊
      * @param color
      */
     protected void setStatusBarColor(@ColorInt int color) {
@@ -84,12 +84,12 @@ public abstract class BaseSwipeActivity extends BaseSwipeBackActivity implements
 
 
     /**
-     * 设置状态栏颜色
+     * 璁剧疆鐘舵€佹爮棰滆壊
      * @param color
-     * @param statusBarAlpha 透明度
-     */
+     * @param statusBarAlpha 閫忔槑搴?     */
     public void setStatusBarColor(@ColorInt int color, @IntRange(from = 0, to = 255) int statusBarAlpha) {
         StatusBarUtil.setColorForSwipeBack(this, color, statusBarAlpha);
     }
 }
+
 

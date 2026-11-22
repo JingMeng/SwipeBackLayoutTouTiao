@@ -1,10 +1,10 @@
-package com.zh.swipebackdemo.activity;
+﻿package com.zh.swipebackdemo.activity;
 
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.View;
 import com.zh.swipebackdemo.BaseSwipeActivity;
 import com.zh.swipebackdemo.R;
@@ -75,3 +75,4 @@ public class CommonActivity extends BaseSwipeActivity {
         return mBgColors;
     }
 }
+

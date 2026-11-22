@@ -1,7 +1,7 @@
-package com.zh.swipebackdemo.activity;
+﻿package com.zh.swipebackdemo.activity;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -49,3 +49,4 @@ public class ListViewActivity extends BaseSwipeActivity {
         });
     }
 }
+

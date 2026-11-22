@@ -1,7 +1,7 @@
-package com.zh.swipebackdemo.activity;
+﻿package com.zh.swipebackdemo.activity;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -35,3 +35,4 @@ public class WebViewActivity extends BaseSwipeActivity {
         mWebView.loadUrl("https://wap.baidu.com");
     }
 }
+

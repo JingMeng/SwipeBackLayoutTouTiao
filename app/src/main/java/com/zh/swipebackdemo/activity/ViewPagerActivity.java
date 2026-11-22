@@ -1,10 +1,10 @@
-package com.zh.swipebackdemo.activity;
+﻿package com.zh.swipebackdemo.activity;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import com.zh.swipebackdemo.BaseSwipeActivity;
 import com.zh.swipebackdemo.R;
@@ -41,3 +41,4 @@ public class ViewPagerActivity extends BaseSwipeActivity {
         }
     };
 }
+
